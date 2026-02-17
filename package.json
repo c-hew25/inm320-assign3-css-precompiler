@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "server": "lite-server --baseDir=\"public\"",
-    "sass": "sass --watch public/assets/css/style.scss:public/assets/css/style.css",
+    "sass": "sass --watch public/assets/css:public/assets/css",
     "start": "concurrently \"npm run server\" \"npm run sass\""
   },
   "keywords": [],
